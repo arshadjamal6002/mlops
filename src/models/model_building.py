@@ -19,5 +19,5 @@ clf = GradientBoostingClassifier(n_estimators=params['n_estimators'], learning_r
 clf.fit(X_train, y_train)
 
 # save
-pickle.dump(clf, open('model.pkl','wb'))
+pickle.dump(clf, open('models/model.pkl','wb'))
 
